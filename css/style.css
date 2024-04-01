@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+.font-a{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(53, 14, 14);
+}
+.font-b{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: maroon;
+}
+.produk-a, .galeri-a, .home-b{
+    font-family: cursive;
+    color: maroon;
+    padding: 10px;
+}
+img{
+    border-radius: 20px;
+}
+.atas-a{
+    text-align: center;
+    font-family: cursive;
+    color: maroon;
+}
+.atas-b{
+    background-color: palevioletred;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+.home-a{
+    background-image: url('../gambar/back2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+.galeri-b, .gesbuk-a, .kontak-a, .produk-a{
+    background-image: url('../gambar/back.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+#guestbook{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid maroon;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px white;
+    margin-top: 50px;
+    text-align: center;
+}
+#guestbook input[type="text"], #guestbook textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+#guestbook textarea {
+    height: 100px;
+}
+#guestbook button {
+    width: 100%;
+    padding: 5px;
+    background-color: maroon;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#guestbook button:hover {
+    background-color: black;
+}
+.kontak-info {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid maroon;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px white;
+    text-align: center;
+    margin-top: 50px; 
+    margin-bottom: 200px;
+}
+.kontak-info .infoBox div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.kontak-info .infoBox  div span{
+    min-width: 40px;
+    height: 40px;
+    background-color: maroon;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5 em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.kontak-info .infoBox div p{
+    color:maroon;
+    font-size: 1.1em;
+    text-align: left;
+}
+.kontak-info .infoBox div a{
+    color: maroon;
+    text-decoration: none;
+}
+.kontak-map{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 2px solid maroon;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px white;
+    text-align: center;
+    margin-top: 50px; 
+    margin-bottom: 200px;
+}
+.map{
+padding: 0;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
